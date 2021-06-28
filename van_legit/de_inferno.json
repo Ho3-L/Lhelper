@@ -696,5 +696,542 @@
 	  "weapon": "weapon_smokegrenade",
 	  "position": [110.83519744873, 1569.6108398438, 132.01264953613],
 	  "viewangles": [-45.053340911865, 76.554176330566]
-	}
+	},
+  {
+    "name": ["Banana", "CT"],
+    "weapon": "weapon_smokegrenade",
+    "position": [416.48001098633, 1768.6999511719, 128.64999389648],
+    "viewangles": [-48.07, 65.35]
+  },
+  {
+    "name": ["Banana", "B Plant (1)"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-79.449996948242, 1330.0100097656, 106.76999664307],
+    "viewangles": [-36.52, 66.62]
+  },
+  {
+    "name": ["Second Mid", "Minipit"],
+    "weapon": "weapon_smokegrenade",
+    "position": [941.90997314453, 415.63000488281, 88.529998779297],
+    "viewangles": [-51.03, 13.23]
+  },
+  {
+    "name": ["Second Mid", "Short"],
+    "weapon": "weapon_smokegrenade",
+    "position": [721.26000976563, 49.049999237061, 94.279998779297],
+    "viewangles": [-36.35, 55.47]
+  },
+  {
+    "name": ["Second Mid", "Deep Long"],
+    "weapon": "weapon_smokegrenade",
+    "position": [941.97998046875, 415.86999511719, 88.529998779297],
+    "viewangles": [-47.68, 39.04]
+  },
+  {
+    "name": ["Fountain", "Construction (Retake)"],
+    "weapon": "weapon_smokegrenade",
+    "position": [1899.3438720703, 2616.9763183594, 251.51138305664],
+    "viewangles": [-37.61, 158.63]
+  },
+  {
+    "name": ["A Arch", "A Bombsite"],
+    "weapon": "weapon_molotov",
+    "position": [2076.9602050781, 1225.8859863281, 174.03125],
+    "viewangles": [-36.093120574951, -89.079292297363],
+    "grenade": {
+      "jump": true
+    }
+  },
+  {
+    "name": ["Short", "Graveyard"],
+    "weapon": "weapon_molotov",
+    "position": [1440.3758544922, 126.49769592285, 127.29149627686],
+    "viewangles": [-7.4931883811951, 0.50747323036194],
+    "grenade": {
+      "run": 10
+    }
+  },
+  {
+    "name": ["Banana", "Logs"],
+    "weapon": "weapon_molotov",
+    "position": [741.02130126953, 2146.5354003906, 136.02940368652],
+    "viewangles": [-7.4360375404358, -130.0224609375],
+    "grenade": {
+      "run": 6
+    }
+  },
+  {
+    "name": ["Banana", "Logs"],
+    "weapon": "weapon_hegrenade",
+    "position": [787.04766845703, 2238.16015625, 136.15072631836],
+    "viewangles": [-12.870037078857, -128.87870788574],
+    "grenade": {
+      "run": 2
+    }
+  },
+  {
+    "name": ["Middle", "Arch"],
+    "weapon": "weapon_molotov",
+    "position": [1136.4251708984, 434.03125, 109.15835571289],
+    "viewangles": [-35.435626983643, 51.535934448242],
+    "grenade": {
+      "run": 24,
+      "jump": true
+    }
+  },
+  {
+    "name": ["Middle", "Middle Gap"],
+    "weapon": "weapon_molotov",
+    "position": [1199.7427978516, 434.03125, 116.29248046875],
+    "viewangles": [-10.704011917114, 54.028427124023],
+    "grenade": {
+      "run": 15
+    }
+  },
+  {
+    "name": ["Arch", "Pit"],
+    "weapon": "weapon_molotov",
+    "position": [2076.9602050781, 1225.8859863281, 174.03125],
+    "viewangles": [-13.849995613098, -63.588802337646],
+    "grenade": {
+      "run": 8
+    }
+  },
+  {
+    "name": ["A Bombsite", "Library"],
+    "weapon": "weapon_molotov",
+    "position": [1934.12890625, 507.74838256836, 160.03125],
+    "viewangles": [-37.323436737061, 49.951187133789],
+    "grenade": {
+      "run": 5,
+      "jump": true
+    }
+  },
+  {
+    "name": ["Ruins", "B Bombsite"],
+    "weapon": "weapon_molotov",
+    "position": [1190.9923095703, 2837.2438964844, 127.79705810547],
+    "viewangles": [-22.279947280884, -146.20399475098],
+    "grenade": {
+      "run": 20
+    }
+  },
+  {
+    "name": ["Ruins Entrance", "Grill"],
+    "weapon": "weapon_molotov",
+    "position": [1232.7194824219, 2890.7622070313, 127.96113586426],
+    "viewangles": [-23.423959732056, -138.19596862793],
+    "grenade": {
+      "run": 20
+    }
+  },
+  {
+    "name": ["CT Spawn", "Tree"],
+    "weapon": "weapon_molotov",
+    "position": [1818.4185791016, 2502.1516113281, 128.02635192871],
+    "viewangles": [-12.184148788452, 130.02679443359],
+    "grenade": {
+      "run": 5
+    }
+  },
+  {
+    "name": ["Middle", "Underpass"],
+    "weapon": "weapon_molotov",
+    "position": [1373.2940673828, 609.35986328125, 129.71479797363],
+    "viewangles": [-23.481260299683, -154.9481048584],
+    "grenade": {
+      "run": 15
+    }
+  },
+  {
+    "name": ["Arch", "Box"],
+    "weapon": "weapon_molotov",
+    "position": [2112.4719238281, 1225.8120117188, 169.82119750977],
+    "viewangles": [-30.954013824463, -89.704856872559],
+    "grenade": {
+      "run": 12,
+      "jump": true
+    }
+  },
+  {
+    "name": ["Arch", "Centered Box"],
+    "weapon": "weapon_molotov",
+    "position": [2017.0148925781, 1162.5441894531, 159.88491821289],
+    "viewangles": [-37.807048797607, -91.629936218262],
+    "grenade": {
+      "run": 4,
+      "jump": true
+    }
+  },
+  {
+    "name": ["Top of Mid", "Arch"],
+    "weapon": "weapon_molotov",
+    "position": [1417.6125488281, 955.01916503906, 147.9774017334],
+    "viewangles": [-13.555436134338, 30.963129043579],
+    "grenade": {
+      "run": 9
+    }
+  },
+  {
+    "name": ["Arch", "Graveyard"],
+    "weapon": "weapon_molotov",
+    "position": [1804.4060058594, 1350.9573974609, 160.03125],
+    "viewangles": [-19.634971618652, -57.904235839844]
+  },
+  {
+    "name": ["A Site", "Middle"],
+    "weapon": "weapon_molotov",
+    "position": [2354.0024414063, 489.36889648438, 144.24835205078],
+    "viewangles": [-35.882019042969, 177.10037231445],
+    "grenade": {
+      "run": 11,
+      "jump": true
+    }
+  },
+  {
+    "name": ["Top of Mid", "Graveyard"],
+    "weapon": "weapon_molotov",
+    "position": [1328.7514648438, 259.44952392578, 132.61827087402],
+    "viewangles": [-18.094930648804, -32.67321395874],
+    "grenade": {
+      "run": 32
+    }
+  },
+  {
+    "name": ["Middle", "A Site (Right)"],
+    "weapon": "weapon_molotov",
+    "position": [1145.0330810547, 497.80032348633, 108.00796508789],
+    "viewangles": [-35.935626983643, 18.009437561035],
+    "grenade": {
+      "run": 20,
+      "jump": true
+    }
+  },
+  {
+    "name": ["Middle", "Onspot"],
+    "weapon": "weapon_molotov",
+    "position": [1298.1202392578, 545.94757080078, 122.74962615967],
+    "viewangles": [-36.612129211426, 0.80649745464325],
+    "grenade": {
+      "run": 2,
+      "jump": true
+    }
+  },
+  {
+    "name": ["banana", "T Site"],
+    "weapon": "weapon_smokegrenade",
+    "position": [479.34790039063, 2017.9876708984, 128.4093170166],
+    "viewangles": [-8.9760236740112, -111.51611328125]
+  },
+  {
+    "name": ["Barrel", "Banana"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-857.99438476563, 437.79028320313, -30.801290512085],
+    "viewangles": [-53.295959472656, 50.734680175781],
+    "grenade": {
+      "run": 15,
+      "run_speed": true
+    }
+  },
+  {
+    "name": ["Lower Mid", "Middle"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-857.99401855469, 437.79000854492, -30.801000595093],
+    "viewangles": [-7.3162355422974, 2.4413061141968],
+    "grenade": {
+      "jump": true
+    }
+  },
+  {
+    "name": ["A keng", "Trunck"],
+    "weapon": "weapon_smokegrenade",
+    "position": [2631.9558105469, -16.591882705688, 84.03125],
+    "viewangles": [-5.5982913970947, -178.95651245117]
+  },
+  {
+    "name": ["b box", "B Entrance"],
+    "weapon": "weapon_smokegrenade",
+    "position": [570.84167480469, 2519.2404785156, 291.03125],
+    "viewangles": [28.97106552124, -28.051742553711]
+  },
+  {
+    "name": ["B_c2", "B Entrance"],
+    "weapon": "weapon_smokegrenade",
+    "position": [386.77529907227, 2537.6569824219, 160.03125],
+    "viewangles": [-26.455095291138, -19.71933555603]
+  },
+  {
+    "name": ["Dark", "B Entrance"],
+    "weapon": "weapon_smokegrenade",
+    "position": [151.98188781738, 3063.96875, 160.03125],
+    "viewangles": [-7.9240398406982, -40.59122467041]
+  },
+  {
+    "name": ["Car", "One-way"],
+    "weapon": "weapon_smokegrenade",
+    "position": [610.97357177734, 1873.0098876953, 134.18933105469],
+    "viewangles": [11.064180374146, 165.26187133789],
+    "grenade": {
+      "strength": 0.5
+    }
+  },
+  {
+    "name": ["Bombsite B", "Banana deep"],
+    "weapon": "weapon_smokegrenade",
+    "position": [875.97796630859, 2481.1391601563, 145.03125],
+    "viewangles": [-23.985179901123, -125.20378875732]
+  },
+  {
+    "name": ["CT spawn", "B Entrance"],
+    "weapon": "weapon_smokegrenade",
+    "position": [1089.6500244141, 2781.9611816406, 128.02877807617],
+    "viewangles": [1.1166039705276, -145.68795776367]
+  },
+  {
+    "name": ["Ruins", "Banana"],
+    "weapon": "weapon_smokegrenade",
+    "position": [1329.9321289063, 2977.21484375, 144.28125],
+    "viewangles": [-30.684719085693, -129.94413757324]
+  },
+  {
+    "name": ["Ruins", "Banana"],
+    "weapon": "weapon_smokegrenade",
+    "position": [1439.9815673828, 2956.1511230469, 131.34083557129],
+    "viewangles": [-29.917303085327, -133.2707824707]
+  },
+  {
+    "name": ["CT spwan", "B Entrance"],
+    "weapon": "weapon_smokegrenade",
+    "position": [2032, 2975.9587402344, 133.02995300293],
+    "viewangles": [-38.152912139893, -154.70938110352]
+  },
+  {
+    "name": ["Well", "Fountain"],
+    "weapon": "weapon_smokegrenade",
+    "position": [1971.2528076172, 2636.8122558594, 128.03125],
+    "viewangles": [-40.002956390381, 176.18634033203]
+  },
+  {
+    "name": ["CT spawn", "Mid"],
+    "weapon": "weapon_smokegrenade",
+    "position": [2129.01953125, 1917.9649658203, 128.03125],
+    "viewangles": [-46.86307144165, -121.29650878906]
+  },
+  {
+    "name": ["Arch", "A up"],
+    "weapon": "weapon_smokegrenade",
+    "position": [1914.6652832031, 1225.9788818359, 174.03125],
+    "viewangles": [-46.570808410645, -87.431716918945]
+  },
+  {
+    "name": ["Pit", "Trunck"],
+    "weapon": "weapon_smokegrenade",
+    "position": [2643.6567382813, -337.03414916992, 90.75789642334],
+    "viewangles": [-17.172998428345, 172.02607727051]
+  },
+  {
+    "name": ["CT", "C1\/C2"],
+    "weapon": "weapon_molotov",
+    "position": [1484.5876464844, 2893.9895019531, 129.46717834473],
+    "viewangles": [-16.236392974854, -162.17109680176]
+  },
+  {
+    "name": ["Tree", "Dark"],
+    "weapon": "weapon_molotov",
+    "position": [1128.0471191406, 2643.0170898438, 134.49531555176],
+    "viewangles": [-24.892328262329, 154.7268371582]
+  },
+  {
+    "name": ["Tree", "New box"],
+    "weapon": "weapon_molotov",
+    "position": [1128.0454101563, 2643.017578125, 134.49613952637],
+    "viewangles": [-22.905815124512, -178.27793884277]
+  },
+  {
+    "name": ["Ruins", "Grill"],
+    "weapon": "weapon_molotov",
+    "position": [929.06860351563, 3296.0383300781, 144.03125],
+    "viewangles": [-45.994087219238, -131.62789916992],
+    "grenade": {
+      "recovery_yaw": 0,
+      "jump": true
+    }
+  },
+  {
+    "name": ["Fountain", "B Entrance"],
+    "weapon": "weapon_molotov",
+    "position": [247.98442077637, 2883.0031738281, 160.03125],
+    "viewangles": [-19.881160736084, -44.581352233887]
+  },
+  {
+    "name": ["Banana", "C1"],
+    "weapon": "weapon_molotov",
+    "position": [339.97540283203, 2027.9180908203, 128.03125],
+    "viewangles": [-46.605472564697, 69.327827453613],
+    "grenade": {
+      "recovery_yaw": 0,
+      "jump": true
+    }
+  },
+  {
+    "name": ["Banana", "C2"],
+    "weapon": "weapon_molotov",
+    "position": [409.32550048828, 2009.1630859375, 128.03125],
+    "viewangles": [-23.504159927368, 119.25335693359],
+    "grenade": {
+      "recovery_yaw": 0,
+      "jump": true
+    }
+  },
+  {
+    "name": ["Car", "Dark"],
+    "weapon": "weapon_molotov",
+    "position": [474.28247070313, 2033.1748046875, 203.03125],
+    "viewangles": [-20.310342788696, 109.1975402832]
+  },
+  {
+    "name": ["Porch", "Dark"],
+    "weapon": "weapon_molotov",
+    "position": [941.99603271484, 2107.9753417969, 140.03125],
+    "viewangles": [-22.244813919067, 129.43858337402],
+    "grenade": {
+      "run": 1,
+      "run_speed": true
+    }
+  },
+  {
+    "name": ["logs", "Spools"],
+    "weapon": "weapon_smokegrenade",
+    "position": [110.83519744873, 1569.6108398438, 132.01264953613],
+    "viewangles": [-45.053340911865, 76.554176330566]
+  },
+  {
+    "name": ["Banana", "CT"],
+    "description": "CT Smoke",
+    "weapon": "weapon_smokegrenade",
+    "position": [110.82592773438, 1569.6212158203, 132.01628112793],
+    "viewangles": [-31.000205993652, 58.414005279541]
+  },
+  {
+    "name": ["banaana", "garden"],
+    "description": "garden smoke  guancaiback",
+    "weapon": "weapon_smokegrenade",
+    "position": [343.77798461914, 1655.8228759766, 122.03125],
+    "viewangles": [-45.048095703125, 85.285087585449]
+  },
+  {
+    "name": ["2nd mid", "Long"],
+    "description": "long smoke",
+    "weapon": "weapon_smokegrenade",
+    "position": [785.03125, -300.96875, 98.935081481934],
+    "viewangles": [-42.837940216064, 56.884860992432]
+  },
+  {
+    "name": ["2nd mid", "Balcony "],
+    "description": "balcony smoke",
+    "weapon": "weapon_smokegrenade",
+    "position": [683.4912109375, 11.96875, 88.03125],
+    "viewangles": [-50.393096923828, -11.606142044067]
+  },
+  {
+    "name": ["2nd mid", "Front pit"],
+    "weapon": "weapon_smokegrenade",
+    "position": [703.2880859375, 11.96875, 88.695327758789],
+    "viewangles": [-52.190437316895, 0.037633396685123]
+  },
+  {
+    "name": ["haystack", "archway"],
+    "weapon": "weapon_smokegrenade",
+    "position": [726.11828613281, 185.92590332031, 97.467208862305],
+    "viewangles": [-43.326953887939, 46.000995635986]
+  },
+  {
+    "name": ["mid", "shufang long smoke"],
+    "weapon": "weapon_smokegrenade",
+    "position": [963.62969970703, 434.01586914063, 88.019989013672],
+    "viewangles": [-50.251125335693, 13.398694038391]
+  },
+  {
+    "name": ["mid", "shufang"],
+    "weapon": "weapon_smokegrenade",
+    "position": [963.63629150391, 434.01617431641, 88.03125],
+    "viewangles": [-49.113040924072, 28.988039016724]
+  },
+  {
+    "name": ["Long", "MId"],
+    "weapon": "weapon_smokegrenade",
+    "position": [1655.9715576172, 1228.96875, 161.38031005859],
+    "viewangles": [-6.2621808052063, -124.58711242676]
+  },
+  {
+    "name": ["banana", "dark"],
+    "weapon": "weapon_molotov",
+    "position": [388.62298583984, 1840.5200195313, 226.03100585938],
+    "viewangles": [-16.452299118042, 102.90071868896]
+  },
+  {
+    "name": ["banana", "coffins"],
+    "weapon": "weapon_molotov",
+    "position": [474.27914428711, 2033.2104492188, 203.03100585938],
+    "viewangles": [-20.357601165771, 86.287788391113]
+  },
+  {
+    "name": ["Banana", "New box"],
+    "weapon": "weapon_molotov",
+    "position": [479.27975463867, 2017.6240234375, 128.37577819824],
+    "viewangles": [-40.867305755615, 122.49085998535],
+    "grenade": {
+      "recovery_yaw": 0,
+      "jump": true
+    }
+  },
+  {
+    "name": ["hall", "Pit"],
+    "weapon": "weapon_molotov",
+    "position": [1841.03125, -249.62889099121, 256.03100585938],
+    "viewangles": [6.1303510665894, 22.129854202271],
+    "duck": true
+  },
+  {
+    "name": ["mid", "mapeng"],
+    "weapon": "weapon_molotov",
+    "position": [1156.994140625, 589.99029541016, 122.03100585938],
+    "viewangles": [-7.3974003791809, -49.951137542725],
+    "grenade": {
+      "run": 4
+    }
+  },
+  {
+    "name": ["mid", "Cubby"],
+    "weapon": "weapon_molotov",
+    "position": [1173.9200439453, 434.00500488281, 114.2320022583],
+    "viewangles": [-22.391527175903, 52.259105682373],
+    "grenade": {
+      "run": 20
+    }
+  },
+  {
+    "name": ["mapeng", "pit"],
+    "weapon": "weapon_molotov",
+    "position": [1341.03125, -35.000434875488, 130.03100585938],
+    "viewangles": [-13.795921325684, -2.7382402420044],
+    "grenade": {
+      "run": 20
+    }
+  },
+  {
+    "name": ["long", "Mudi"],
+    "weapon": "weapon_molotov",
+    "position": [1665.1811523438, 1228.96875, 161.37879943848],
+    "viewangles": [-25.134960174561, -40.906116485596]
+  },
+  {
+    "name": ["ct", "New box"],
+    "weapon": "weapon_molotov",
+    "position": [1352.5600585938, 2902.7800292969, 128.00750732422],
+    "viewangles": [-20.830646514893, -155.64831542969],
+    "grenade": {
+      "run": 15
+    }
+  }
 ]
