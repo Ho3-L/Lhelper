@@ -1,6 +1,6 @@
 {
 	"name": "VAN (Movement) CN-ip",
-	"description": "Movement locations for popular maps",
-  	"update_timestamp": 1624371447,
+	"description": "integrate BY VAN ",
+  	"update_timestamp": 1625571385,
 	"url_format": "https://mo_xiao_mo.coding.net/p/helper/d/van_Legit/git/raw/master/van_movement/%map%.json"
 }
