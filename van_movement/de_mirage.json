@@ -40731,35 +40731,7 @@
       ]
     }
   },
-  {
-    "name": ["Top Midddd", "Bug"],
-    "description": "keep trying until it works",
-    "weapon": "weapon_knife",
-    "position": [149.22773742676, -261.39163208008, -151.96875],
-    "viewangles": [56.285194396973, 111.82975006104],
-    "movement": {
-      "frames": [
-        [
-          0,
-          0,
-          "SFJR"
-        ],
-        10,
-        [
-          0,
-          0,
-          "j"
-        ],
-        2,
-        [
-          0,
-          0,
-          "fr"
-        ],
-        59
-      ]
-    }
-  },
+  
   {
     "name": ["CT", "Bug"],
     "weapon": "weapon_knife",
