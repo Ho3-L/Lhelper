@@ -1015,5 +1015,38 @@
       "grenade": {
         "run": 15
       }
+    },
+        {
+      "name": ["mid hig", "Xbox"],
+      "description": "xbox smoke",
+      "weapon": "weapon_smokegrenade",
+      "position": [30.161224365234, 308.03125, 0.60817718505859],
+      "viewangles": [-5.1506247520447, 128.3060760498],
+      "grenade": {
+        "run": 35,
+        "jump": true,
+        "run_speed": true
+      }
+    },
+    {
+      "name": ["T spawn", "Xbox"],
+      "description": "Xbox smoke",
+      "weapon": "weapon_smokegrenade",
+      "position": [-504.37875366211, -661.57873535156, 127.12097167969],
+      "viewangles": [-7.455527305603, 84.546264648438],
+      "grenade": {
+        "jump": true
+      }
+    },
+    {
+      "name": ["A long", "Xbox"],
+      "description": "xbox smoke",
+      "weapon": "weapon_smokegrenade",
+      "position": [795.88818359375, 808.03125, 0.023040771484375],
+      "viewangles": [-13.289535522461, 161.03863525391],
+      "grenade": {
+        "jump": true
+      }
     }
+
   ]
