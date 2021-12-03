@@ -4132,22 +4132,6 @@
   },
  
   {
-    "name": ["Suicide", "Pixel (REQUIRES STAND BOOST)(TOP BOX)"],
-    "weapon": "weapon_knife",
-    "position": [-474.19482421875, -157.51599121094, 179.0625],
-    "viewangles": [49.041515350342, 129.27069091797],
-    "movement": {
-      "frames": [
-        [
-          0,
-          0,
-          "F"
-        ],
-        25
-      ]
-    }
-  },
-  {
     "name": ["Long", "Pixel (REQUIRES BOOST)"],
     "weapon": "weapon_knife",
     "position": [1274.1274414063, 1552.2678222656, 74.055404663086],
