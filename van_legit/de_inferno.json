@@ -1229,8 +1229,8 @@
     }
   },
     {
-    "name": ["侧道", "lian联接烟"],
-    "description": "lian联接烟",
+    "name": ["侧道", "連联接烟"],
+    "description": "連联接烟",
     "weapon": "weapon_smokegrenade",
     "position": [91.452972412109, -207.99932861328, 48.425884246826],
     "viewangles": [-12.930055618286, 35.754764556885],
