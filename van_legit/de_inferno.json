@@ -692,7 +692,7 @@
 	  }
 	},
 	{
-	  "name": ["logs", "guan棺chai材烟"],
+	  "name": ["logs", "棺材烟"],
 	  "weapon": "weapon_smokegrenade",
 	  "position": [110.83519744873, 1569.6108398438, 132.01264953613],
 	  "viewangles": [-45.053340911865, 76.554176330566]
@@ -1098,12 +1098,6 @@
       "run": 1,
       "run_speed": true
     }
-  },
-  {
-    "name": ["logs", "Spools"],
-    "weapon": "weapon_smokegrenade",
-    "position": [110.83519744873, 1569.6108398438, 132.01264953613],
-    "viewangles": [-45.053340911865, 76.554176330566]
   },
   {
     "name": ["Banana", "CT"],
