@@ -1100,8 +1100,8 @@
     }
   },
   {
-    "name": ["Banana", "CT"],
-    "description": "CT Smoke",
+    "name": ["Banana", "CT 烟"],
+    "description": "CT 烟",
     "weapon": "weapon_smokegrenade",
     "position": [110.82592773438, 1569.6212158203, 132.01628112793],
     "viewangles": [-31.000205993652, 58.414005279541]
