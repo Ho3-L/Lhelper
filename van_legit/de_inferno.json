@@ -1108,7 +1108,7 @@
   },
   {
     "name": ["banaana", "棺材里烟"],
-    "description": "棺材里面门口烟",
+    "description": "棺材里面烟",
     "weapon": "weapon_smokegrenade",
     "position": [343.77798461914, 1655.8228759766, 122.03125],
     "viewangles": [-45.048095703125, 85.285087585449]
