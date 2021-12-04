@@ -710,12 +710,6 @@
     "viewangles": [-36.52, 66.62]
   },
   {
-    "name": ["Second Mid", "Minipit"],
-    "weapon": "weapon_smokegrenade",
-    "position": [941.90997314453, 415.63000488281, 88.529998779297],
-    "viewangles": [-51.03, 13.23]
-  },
-  {
     "name": ["Second Mid", "Short"],
     "weapon": "weapon_smokegrenade",
     "position": [721.26000976563, 49.049999237061, 94.279998779297],
