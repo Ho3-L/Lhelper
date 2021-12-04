@@ -722,12 +722,6 @@
     "viewangles": [-36.35, 55.47]
   },
   {
-    "name": ["Second Mid", "Deep Long"],
-    "weapon": "weapon_smokegrenade",
-    "position": [941.97998046875, 415.86999511719, 88.529998779297],
-    "viewangles": [-47.68, 39.04]
-  },
-  {
     "name": ["Fountain", "Construction (Retake)"],
     "weapon": "weapon_smokegrenade",
     "position": [1899.3438720703, 2616.9763183594, 251.51138305664],
