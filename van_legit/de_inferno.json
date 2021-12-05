@@ -903,15 +903,6 @@
     }
   },
   {
-    "name": ["Lower Mid", "Middle"],
-    "weapon": "weapon_smokegrenade",
-    "position": [-857.99401855469, 437.79000854492, -30.801000595093],
-    "viewangles": [-7.3162355422974, 2.4413061141968],
-    "grenade": {
-      "jump": true
-    }
-  },
-  {
     "name": ["A keng", "Trunck"],
     "weapon": "weapon_smokegrenade",
     "position": [2631.9558105469, -16.591882705688, 84.03125],
