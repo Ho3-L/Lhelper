@@ -495,26 +495,7 @@
       -111.51611328125
     ]
   },
-  {
-    "name": [
-      "Barrel",
-      "Banana"
-    ],
-    "weapon": "weapon_smokegrenade",
-    "position": [
-      -857.99438476563,
-      437.79028320313,
-      -30.801290512085
-    ],
-    "viewangles": [
-      -53.295959472656,
-      50.734680175781
-    ],
-    "grenade": {
-      "run": 15,
-      "run_speed": true
-    }
-  },
+
   {
     "name": [
       "Lower Mid",
