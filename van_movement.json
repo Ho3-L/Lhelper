@@ -1,6 +1,6 @@
 {
 	"name": "VAN (Movement) CN-ip",
 	"description": "integrate BY VAN ",
-  	"update_timestamp": 1638658178,
+  	"update_timestamp": 1659948270,
 	"url_format": "https://raw.githubusercontent.com/ho3boom/Lhelper/master/van_movement/%map%.json"
 }
