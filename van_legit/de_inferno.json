@@ -1197,6 +1197,16 @@
     "grenade": {
       "jump": true
     }
+  },
+   {
+    "name": ["pit", "pit"],
+    "description": "danxiang",
+    "weapon": "weapon_smokegrenade",
+    "position": [2480.0092773438, -16.007904052734, 98.03125],
+    "viewangles": [-0.55016750097275, -132.23193359375],
+    "grenade": {
+      "strength": 0
+    }
   }
 
 ]
