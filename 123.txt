@@ -1,0 +1,102 @@
+使用 `mmiotrace` 来跟踪 Intel 7265 无线网卡驱动的内存映射 I/O（MMIO）访问是一个有用的调试和分析方法。下面是一个详细的步骤指南，帮助你完成这一过程：
+
+### 1. 确保内核支持
+
+首先，确保你的内核已经启用了 `CONFIG_MMIOTRACE` 配置选项。如果你使用的是自定义内核，你需要在内核配置中启用这个选项，并重新编译内核。
+
+### 2. 确定 MMIO 区域
+
+使用 `lspci` 命令来查找 Intel 7265 无线网卡的设备信息，并确定其 MMIO 区域的基地址和大小。Intel 7265 网卡的设备 ID 可能是 `8086:095a`，但请根据你的具体硬件确认。
+
+```bash
+lspci -d 8086:095a -vv
+```
+
+在输出中查找 "Memory at" 行，它将告诉你 MMIO 的基地址和大小。例如：
+
+```
+Memory at f7e00000 (64-bit, non-prefetchable) [size=8K]
+```
+
+### 3. 配置跟踪区域
+
+将 MMIO 基地址和大小写入到 `/sys/kernel/debug/tracing/mmiotrace_regions` 文件中。例如：
+
+```bash
+# 替换 f7e00000 和 8000 为你的网卡的 MMIO 基地址和大小
+echo "f7e00000 8000" > /sys/kernel/debug/tracing/mmiotrace_regions
+```
+
+### 4. 启用 mmiotrace
+
+启用 `mmiotrace` 功能来开始跟踪 MMIO 访问：
+
+```bash
+echo 1 > /sys/kernel/debug/tracing/events/mmiotrace/enable
+```
+
+### 5. 加载网卡驱动
+
+加载或重新加载 Intel 7265 无线网卡驱动。通常，Intel 无线网卡使用 `iwlwifi` 驱动程序：
+
+```bash
+modprobe -r iwlwifi
+modprobe iwlwifi
+```
+
+### 6. 执行网络操作
+
+执行一些网络操作，比如连接到 Wi-Fi 网络、传输文件或访问网络服务，以产生 MMIO 访问。
+
+### 7. 禁用 mmiotrace
+
+完成跟踪后，禁用 `mmiotrace`：
+
+```bash
+echo 0 > /sys/kernel/debug/tracing/events/mmiotrace/enable
+```
+
+### 8. 分析结果
+
+查看跟踪日志文件来分析 MMIO 访问：
+
+```bash
+cat /sys/kernel/debug/tracing/trace
+```
+
+### 示例
+
+假设你的网卡的 MMIO 区域起始地址为 `f7e00000`，大小为 `8000`，下面是一个完整的示例：
+
+```bash
+# 确保你已加载必要的内核模块
+modprobe io_mapping
+
+# 配置跟踪区域
+echo "f7e00000 8000" > /sys/kernel/debug/tracing/mmiotrace_regions
+
+# 启用 mmiotrace
+echo 1 > /sys/kernel/debug/tracing/events/mmiotrace/enable
+
+# 加载网卡驱动
+modprobe -r iwlwifi
+modprobe iwlwifi
+
+# 执行网络测试操作
+# (执行一些网络操作以产生 MMIO 访问)
+
+# 禁用 mmiotrace
+echo 0 > /sys/kernel/debug/tracing/events/mmiotrace/enable
+
+# 查看结果
+cat /sys/kernel/debug/tracing/trace
+```
+
+通过这些步骤，你可以有效地使用 `mmiotrace` 来跟踪和分析 Intel 7265 无线网卡驱动的 MMIO 访问，帮助进行驱动程序的调试和性能分析。
+
+### 注意事项
+
+- 请确保你有适当的权限来执行上述命令，通常需要 root 权限。
+- `iwlwifi` 是 Intel 无线网卡常用的驱动名称，但请根据你的系统情况确认。
+- 上述步骤假设 `mmiotrace` 功能已经在内核中启用，并且对应的内核模块已经加载。
+- 跟踪 MMIO 访问可能会对系统性能产生影响，因此请在调试时使用，而不是在生产环境中使用。
